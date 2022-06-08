@@ -344,9 +344,34 @@ margin-right: 20px;
     .sci{
         margin-top: 40px;
     }
+}
 
     /** ESTILOS DE PRODUCTOS.HTML :)  **/
-    
+    .menu{
+        text-rendering: optimizeLegibility;
+        line-height: 1.5;
+        font-family: "Speedee",arial,helvetica,sans-serif;
+        font-weight: 400;
+        color: #292929;
+        word-spacing: 1px;
+        -webkit-text-size-adjust: 100%;
+        -webkit-font-smoothing: antialiased;
+        font-size: 16px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        box-shadow: 0 3px 3px 0 rgba(0,0,0,.07);
+        border: 2px solid #e1e1e1;
+        border-radius: 6px;
+        overflow: hidden;
+    }
 
-
-}
+    .layout {
+        width: 1366px;
+        height: 768px;
+        background-color: radial-gradient(#f0483a,#d10a20);
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+      }
