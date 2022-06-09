@@ -20,6 +20,36 @@
 
 }
 
+form{  
+    background-color: white;
+    border-radius: 15px;
+    color: black    ;
+    font-size: 15px;
+    padding: 15px;
+    margin:  0 auto;
+    width: 300 px;
+}
+
+input,textarea{
+    border: 0;
+    outline: none;
+    width: 300px;
+}
+
+.field{
+    border: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.field:focus{
+background-color: #D6DBDF;
+}
+
+.center-content{
+    text-align: center;
+}
+
 header{
     position: absolute;
     top: 0;
@@ -92,7 +122,7 @@ header{
     display: inline-block;
     padding: 20px 50px;
     background: #fff;
-    color: #333;
+    color: #yellow;
     font-size: 1.1em;
     font-weight: 500;
     border-radius: 40px;
@@ -194,6 +224,36 @@ display: block;
 margin-right: 20px;
 }
 
+.titulo-contacto{
+    text-align: center !important;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    font-size: 45px;
+    color: #333333;
+    padding-top: 25px;
+}
+
+/*Formulario*/
+.btn{
+    border-radius:3px;
+    display:inline-block;
+    padding:20px 15px;
+    text-decoration:none;
+    text-shadow:01px0rgba(255,255,255,0.3);
+    box-shadow:01px 1px rgba(0,0,0,0.3);
+}
+              
+.btn-green{
+    color:black;
+    background-color:#FFEF00;
+}
+.btn-green:hover{
+    background-color:#FFEF00;
+}
+.btn-green:active{
+    background-color:#FFEF00;
+}
 
 
 /*Diseño responsivo*/
