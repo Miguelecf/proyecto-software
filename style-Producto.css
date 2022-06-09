@@ -218,18 +218,20 @@ margin-right: 20px;
     width: 100%;
     height: 768px;
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 25px 15px;
     justify-self: center;
     padding: 40px 40px;
+    padding-top: 20px;
     
   }
+
+ 
 
   .card{
     width: 100%;
     height: auto;
-    margin-top: 30px;
+    margin-top: 15px;
     background-color: #D6DBDF;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -262,34 +264,37 @@ margin-right: 20px;
 
 .parrafo-card2{
 font-size: 25px;
-padding-left: 25px;
-margin-top: 10px;
+text-align: center;
+
 }
+
 
 .icon-compras{
     color: black !important ;
     
 }
 
+
+
 .padre{
     height: 50px;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-around;
     background-color:#D6DBDF;
     margin-top:-5px;
     padding: 10px;
-    border-bottom-left-radius:  10px;
+    border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
 
 .hijo{
-    width: 100%;
+    
     height: 30px;
-    color: #f03536;
-    margin-top: 7px;
+    color: #d10a20;
     background-color:#D6DBDF;
+    text-align: center;
+    font-size: 28px;
 }
 
 
@@ -298,7 +303,7 @@ margin-top: 10px;
 @media (max-width:991px){
 
    .main{
-        height: auto;
+    height: 100px;
        padding: 0px;
    } 
 
@@ -416,6 +421,10 @@ margin-top: 10px;
        top: 100px;
    }
 
+   .titulo-producto{
+    padding: 20px;
+   }
+
 }
 
 @media (max-width:480px){
@@ -447,4 +456,9 @@ margin-top: 10px;
     .sci{
         margin-top: 40px;
     }
+
+    .titulo-producto{
+        height: 100%;
+        font-size: 40px;
+       }
 }
