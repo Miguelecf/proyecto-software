@@ -80,12 +80,15 @@ header{
 }
 
 .content .text p{
-    color: #fff;
-    font-weight: 400;
+    color: #FFEF00;
+    font-weight: 800;
     font-size: 1.1em;
     line-height: 1.5em;
     margin: 20px 0;
+    text-align: right;
 }
+
+
 
 .btn{
     position: relative;
